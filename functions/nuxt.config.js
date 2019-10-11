@@ -1,5 +1,5 @@
 
-export default {
+module.exports = {
   srcDir: 'nuxt-ssr',
   build: {
     publicPath: '/assets/'
