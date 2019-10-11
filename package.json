@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-ssr-firebase",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaiax/nuxt-ssr-firebase.git"
+  },
+  "author": "@aramsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaiax/nuxt-ssr-firebase/issues"
+  },
+  "homepage": "https://github.com/gaiax/nuxt-ssr-firebase",
+  "dependencies": {
+    "firebase": "^6.3.3"
+  },
+  "devDependencies": {
+    "firebase-tools": "*"
+  }
+}
