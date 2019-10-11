@@ -1,5 +1,9 @@
 
 export default {
+  srcDir: 'nuxt-ssr',
+  build: {
+    publicPath: '/assets/'
+  },
   mode: 'universal',
   /*
   ** Headers of the page
