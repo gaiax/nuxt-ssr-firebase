@@ -4,16 +4,20 @@
   "scripts": {
     "serve": "firebase serve --only functions",
     "shell": "firebase functions:shell",
-    "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "engines": {
     "node": "8"
   },
   "dependencies": {
     "firebase-admin": "^8.0.0",
-    "firebase-functions": "^3.1.0"
+    "firebase-functions": "^3.1.0",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.1.6"
