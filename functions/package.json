@@ -12,7 +12,7 @@
     "generate": "nuxt generate"
   },
   "engines": {
-    "node": "8"
+    "node": "10"
   },
   "dependencies": {
     "firebase-admin": "^8.0.0",
