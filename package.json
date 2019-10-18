@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "deploy": "rm -Rf ./public/assets/; cp -cR ./functions/.nuxt/dist/client/ ./public/assets/; firebase deploy"
+    "deploy": "rm -Rf ./public/_nuxt/; cp -cR ./functions/.nuxt/dist/client/ ./public/_nuxt/; firebase deploy"
   },
   "repository": {
     "type": "git",
